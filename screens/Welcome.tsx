@@ -18,6 +18,18 @@ const TopSection = styled.View`
   max-height: 55%;
 `;
 
+const TopImage = styled.Image`
+  width: 100%;
+  height: 100%;
+  resize: stretch;
+`;
+
+const BottomSection = styled.View`
+  width: 100%;
+  padding: 25px;
+  flex: 1;
+`
+
 const Welcome: FunctionComponent = () => {
   return (
     <>
